@@ -2,7 +2,7 @@
 
 A **Spanish keyboard layout for standard ANSI hardware** (104/105 keys, no ISO key left of Z). It remaps a US-style physical keyboard so Spanish and the other languages of South America are comfortable to type without buying an ISO keyboard from Spain or Latin America.
 
-ANSI is the most widely sold keyboard form factor. Targeting it first opens a larger hardware market. Today this project is a **software layout**. Later it can become a **physical layer**: the same map printed on keycaps (legend-only change) for boards that ship ANSI.
+ANSI is the most widely sold keyboard form factor. Targeting it first opens a larger hardware market. The project starts as a **software layout** and already has a **physical keycap template** (legend kit) so the same map can be printed on Cherry-profile caps for ANSI boards.
 
 System name: **Spanish (ANSI)**. Short indicator: **ESA**. Layout id: `esansi`.
 
@@ -11,6 +11,7 @@ System name: **Spanish (ANSI)**. Short indicator: **ESA**. Layout id: `esansi`.
 | Linux (XKB) | [`linux/xkb/`](linux/xkb/) | [`linux.md`](linux.md) |
 | Windows | [`windows/esansi.klc`](windows/esansi.klc) | [`windows.md`](windows.md) |
 | macOS | build with Ukelele | [`macos.md`](macos.md) |
+| Physical keycaps | [Yuzu ESA set](https://yuzukeycaps.com/c/6ac3d7c8-8c10-4578-98be-3831ab731efb) | [Physical keycaps](#physical-keycaps-yuzu) |
 
 ## Why this layout
 
@@ -105,6 +106,20 @@ Letter row stays QWERTY. Spanish essentials sit on keys that exist on ANSI:
 - **Dead keys:** `` ` ``, `´`, `¨`, plus AltGr macron `¯`, caron `ˇ`, and dots `̣` / `˙`. Press the accent, then the letter (or space for the accent alone). These cover Spanish, Portuguese, pinyin, and IAST-style transliteration.
 - **AltGr** is Right Alt (Option on macOS).
 - **Programming:** `[` `]` `{` `}` live on AltGr of `´` `/` `ñ` `'`. `<` `>` on `\`. `+` `*` on AltGr of `¡` `¿`.
+
+## Physical keycaps (Yuzu)
+
+Custom Cherry keycaps for ESA are shared on [Yuzu](https://yuzukeycaps.com/c/6ac3d7c8-8c10-4578-98be-3831ab731efb). Open that link to fork the set, change colours, or edit legends before ordering.
+
+![ESA custom keycaps on Yuzu](physical/esa-yuzu.png)
+
+The published template uses an **Ubuntu** logo on Super. Change that key to match your OS:
+
+- **Linux / Ubuntu** — keep the Ubuntu mark, or use a generic Super / Tux legend
+- **Windows** — Windows logo on Super / Win
+- **macOS** — Command (⌘) and Option keys instead of Super / AltGr where your board needs them
+
+Anyone can reuse the kit as a starting point; only the modifier legends usually need to change per platform.
 
 ## Quick install (Linux)
 
