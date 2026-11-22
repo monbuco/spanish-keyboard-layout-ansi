@@ -57,7 +57,7 @@ LAYOUT		; an extra '@' at the end of a dead key describes a dead key
 26	L		1	l	L	03bb	20ba		// λ ₺
 27	OEM_1		1	00f1	00d1	007b	00af@		// ñ Ñ { ¯
 28	OEM_7		0	0027	0022	007d	02c7@		// ' " } ˇ
-29	OEM_3		0	0060@	007e	007e@	207a		// ` ~ ~ ⁺ (AltGr ~ dead)
+29	OEM_3		0	0060	007e	007e@	207a		// ` ~ ~ ⁺ (` literal; AltGr ~ dead)
 
 2b	OEM_5		0	003c	003e	2264	2265		// < > ≤ ≥
 2c	Z		1	z	Z	00ab	201c		// « “

@@ -104,7 +104,7 @@ Letter row stays QWERTY. Spanish essentials sit on keys that exist on ANSI:
 
 ## Usage notes
 
-- **Dead keys:** `` ` `` (base), `´`, `¨`, plus on AltGr / AltGr+Shift: tilde `~` (for Portuguese `ã` `õ`), grave `` ` `` (for `à`), circumflex `^` (for `â` `ê` `ô`), macron `¯`, caron `ˇ`, and dots `̣` / `˙`. Press the accent, then the letter (or space for the accent alone).
+- **Dead keys:** `´`, `¨`, plus on AltGr / AltGr+Shift: tilde `~` (for Portuguese `ã` `õ`), grave `` ` `` (for `à`), circumflex `^` (for `â` `ê` `ô`), macron `¯`, caron `ˇ`, and dots `̣` / `˙`. Press the accent, then the letter (or space for the accent alone). The base `` ` `` key is a literal backtick, not dead.
 - **Portuguese:** AltGr+`` ` `` then `a`/`o` → `ã`/`õ`; AltGr+Shift+`/` then `a`/`e`/`o` → `â`/`ê`/`ô`; AltGr+Shift+`´` then `a` → `à`. `ç` is AltGr+C.
 - **AltGr** is Right Alt (Option on macOS).
 - **Programming:** `[` `]` `{` `}` live on AltGr of `´` `/` `ñ` `'`. `<` `>` on `\`. `+` `*` on AltGr of `¿` `?`. Literal `~` and `^` stay on Shift of `` ` `` and `6`.

@@ -4,7 +4,7 @@ macOS does not use the Linux XKB files. Build a `.keylayout` (for example with [
 
 On this system AltGr is the **Option** key. Right Option does the same.
 
-Dead accents `` ` ``, `´`, `¨`, Option tilde `~`, Option+Shift grave and circumflex `` ` `` / `^` (for Portuguese), the macron, the caron, and the dead dots wait for the next letter. Space after a dead accent types the accent alone.
+The base `` ` `` key is a literal backtick. Dead accents are `´`, `¨`, Option tilde `~`, Option+Shift grave and circumflex `` ` `` / `^` (for Portuguese), the macron, the caron, and the dead dots. Space after a dead accent types the accent alone.
 
 ## Create the layout with Ukelele
 
