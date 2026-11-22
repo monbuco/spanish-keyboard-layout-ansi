@@ -26,7 +26,7 @@ Log out and log back in. The desktop reads that folder at startup.
 
 Settings → Keyboard → Input Sources → Add.
 
-Open **Spanish** (or **Other**) and choose **Spanish (ANSI)**.
+The `countryList` in `evdev.xml` registers the layout under **Spain** and the Spanish-speaking countries of the Americas (plus Brazil, Guyana, Suriname, and French Guiana). Open one of those countries, or **Spanish**, and choose **Spanish (ANSI)**.
 
 To switch keyboards: Super+Space, or the bar indicator.
 

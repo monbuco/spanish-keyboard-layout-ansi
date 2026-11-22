@@ -5,8 +5,35 @@
     <layout>
       <configItem>
         <name>esansi</name>
+        <!-- Keyboard indicator for Spanish (ANSI) -->
         <shortDescription>ESA</shortDescription>
         <description>Spanish (ANSI)</description>
+        <countryList>
+          <iso3166Id>ES</iso3166Id>
+          <iso3166Id>AR</iso3166Id>
+          <iso3166Id>BO</iso3166Id>
+          <iso3166Id>CL</iso3166Id>
+          <iso3166Id>CO</iso3166Id>
+          <iso3166Id>CR</iso3166Id>
+          <iso3166Id>CU</iso3166Id>
+          <iso3166Id>DO</iso3166Id>
+          <iso3166Id>EC</iso3166Id>
+          <iso3166Id>GT</iso3166Id>
+          <iso3166Id>HN</iso3166Id>
+          <iso3166Id>MX</iso3166Id>
+          <iso3166Id>NI</iso3166Id>
+          <iso3166Id>PA</iso3166Id>
+          <iso3166Id>PE</iso3166Id>
+          <iso3166Id>PR</iso3166Id>
+          <iso3166Id>PY</iso3166Id>
+          <iso3166Id>SV</iso3166Id>
+          <iso3166Id>UY</iso3166Id>
+          <iso3166Id>VE</iso3166Id>
+          <iso3166Id>BR</iso3166Id>
+          <iso3166Id>GY</iso3166Id>
+          <iso3166Id>SR</iso3166Id>
+          <iso3166Id>GF</iso3166Id>
+        </countryList>
         <languageList>
           <iso639Id>spa</iso639Id>
           <iso639Id>por</iso639Id>
