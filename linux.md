@@ -1,12 +1,12 @@
 # Spanish (ANSI) on Linux
 
-The layout is XKB. It works on Ubuntu and on other distributions that use XKB: Debian, Fedora, Arch, and the rest.
+The layout is XKB. It works on Ubuntu and on the other distributions that use XKB: Debian, Fedora, Arch, and the rest. It is not an Ubuntu-only file.
 
 There are two ways to install it. The user install is enough for GNOME and for desktops that read `~/.config/xkb`. The system install is needed if you use X11 with `setxkbmap`, or if you want the layout on the login screen.
 
-The name that appears is **Spanish (ANSI)**. The bar indicator is **ESA**.
+The name that appears is **Spanish (ANSI)**. The bar indicator stays ESA.
 
-AltGr is the right Alt key. Dead accents `` ` ``, `´`, `¨`, the macron `¯`, the caron `ˇ`, and the dead dots wait for the next letter. Space after a dead accent types the accent alone.
+AltGr is the right Alt key. The accents `` ` ``, `´`, `¨`, the macron, the caron, and the two dead dots wait for the next letter. Space after a dead accent types the accent alone.
 
 ## User install
 
@@ -26,7 +26,9 @@ Log out and log back in. The desktop reads that folder at startup.
 
 Settings → Keyboard → Input Sources → Add.
 
-The `countryList` in `evdev.xml` registers the layout under **Spain** and the Spanish-speaking countries of the Americas (plus Brazil, Guyana, Suriname, and French Guiana). Open one of those countries, or **Spanish**, and choose **Spanish (ANSI)**.
+The first screen lists languages. Open **Spanish**, **Portuguese**, **English**, **Dutch**, or **French** and choose **Spanish (ANSI)**.
+
+You can also open a country from the list (Spain, Colombia, …): the layout is registered for those countries as well.
 
 To switch keyboards: Super+Space, or the bar indicator.
 
@@ -45,7 +47,7 @@ sudo cp linux/xkb/symbols/esansi /usr/share/X11/xkb/symbols/esansi
 setxkbmap esansi
 ```
 
-To have it show up in the graphical picker as well, add the `<layout>` block from `linux/xkb/rules/evdev.xml` inside `<layoutList>` in `/usr/share/X11/xkb/rules/evdev.xml`. Do not replace that file: the one in the repository contains only this layout.
+To have it show up in the graphical picker as well, add the `<layout>` block from `linux/xkb/rules/evdev.xml` inside `<layoutList>` in `/usr/share/X11/xkb/rules/evdev.xml`. Do not replace that file: the one in the repository contains only Spanish (ANSI), and the system file contains every layout.
 
 In `/usr/share/X11/xkb/rules/evdev.lst`, in the `! layout` section, add:
 

@@ -114,7 +114,10 @@ cp linux/xkb/symbols/esansi ~/.config/xkb/symbols/esansi
 cp linux/xkb/rules/evdev.xml ~/.config/xkb/rules/evdev.xml
 ```
 
-Log out and back in, then add **Spanish (ANSI)** in your input sources. Full steps: [`linux.md`](linux.md).
+If `~/.config/xkb/rules/evdev.xml` already exists, do not replace it: add the `<layout>` block from this repo inside `<layoutList>`.
+
+**Log out and back in.** In GNOME, open **Spanish** (language) and choose **Spanish (ANSI)**. Full steps: [`linux.md`](linux.md).
+
 
 ## Upstream
 

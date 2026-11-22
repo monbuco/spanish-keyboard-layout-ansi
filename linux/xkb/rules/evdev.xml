@@ -5,7 +5,6 @@
     <layout>
       <configItem>
         <name>esansi</name>
-        <!-- Keyboard indicator for Spanish (ANSI) -->
         <shortDescription>ESA</shortDescription>
         <description>Spanish (ANSI)</description>
         <countryList>
