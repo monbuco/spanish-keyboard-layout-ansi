@@ -1,0 +1,7 @@
+.DS_Store
+*.xkm
+*.dll
+*.msi
+windows/setup*/
+windows/*/setup.exe
+macos/*.keylayout.bak

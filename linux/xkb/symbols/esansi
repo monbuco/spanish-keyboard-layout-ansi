@@ -1,0 +1,74 @@
+// Spanish (ANSI)
+// Physical ANSI-104/105 without the ISO extra key left of Z.
+// Four levels: normal, Shift, AltGr, AltGr+Shift.
+// Map: README.md
+
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "us(basic)"
+
+    name[Group1] = "Spanish (ANSI)";
+
+    // Number row: Spanish punctuation on -/=; º ª and primes on AltGr.
+    key <TLDE> { [  dead_grave, asciitilde,   asciitilde,        U207A ] }; // ` ~ ~ ⁺
+    key <AE01> { [           1,       bar,    masculine,    onesuperior ] }; // 1 | º ¹
+    key <AE02> { [           2,        at,  ordfeminine,    twosuperior ] }; // 2 @ ª ²
+    key <AE03> { [           3, numbersign, periodcentered, threesuperior ] }; // 3 # · ³
+    key <AE04> { [           4,     dollar,         cent,  foursuperior ] }; // 4 $ ¢ ⁴
+    key <AE05> { [           5,    percent,     EuroSign,  fivesuperior ] }; // 5 % € ⁵
+    key <AE06> { [           6, asciicircum,     notsign,   sixsuperior ] }; // 6 ^ ¬ ⁶
+    key <AE07> { [           7,  ampersand,    copyright, sevensuperior ] }; // 7 & © ⁷
+    key <AE08> { [           8,  parenleft,      minutes, eightsuperior ] }; // 8 ( ′ ⁸
+    key <AE09> { [           9, parenright,      seconds,  ninesuperior ] }; // 9 ) ″ ⁹
+    key <AE10> { [           0,      equal,       degree,  zerosuperior ] }; // 0 = ° ⁰
+    key <AE11> { [  exclamdown,     exclam,         plus,     plusminus ] }; // ¡ ! + ±
+    key <AE12> { [ questiondown,  question,     asterisk,        U2E2E ] }; // ¿ ? * ⸮
+
+
+    // Top letter row: acute/diaeresis after P; / \ where ] usually is.
+    key <AD01> { [           q,          Q,     infinity,       section ] }; // ∞ §
+    key <AD02> { [           w,          W,  Greek_omega,       WonSign ] }; // ω ₩
+    key <AD03> { [           e,          E, Greek_epsilon,  Greek_OMEGA ] }; // ε Ω
+    key <AD04> { [           r,          R,    Greek_rho,    registered ] }; // ρ ®
+    key <AD05> { [           t,          T,    Greek_tau,     trademark ] }; // τ ™
+    key <AD06> { [           y,          Y,    leftarrow,           yen ] }; // ← ¥
+    key <AD07> { [           u,          U,   rightarrow,         U0950 ] }; // → ॐ
+    key <AD08> { [           i,          I,     integral,         U20B9 ] }; // ∫ ₹
+    key <AD09> { [           o,          O,           oe,            OE ] }; // œ Œ
+    key <AD10> { [           p,          P,     Greek_pi,         U220F ] }; // π ∏
+    key <AD11> { [  dead_acute, dead_diaeresis, bracketleft,         grave ] }; // ´ ¨ [ `
+
+    key <AD12> { [       slash,  backslash, bracketright,   asciicircum ] }; // / \ ] ^
+
+    // Home row: ñ where ; is on US; ' " where ' is.
+    key <AC01> { [           a,          A,           ae,            AE ] }; // æ Æ
+    key <AC02> { [           s,          S, Greek_sigma,         U2211 ] }; // σ ∑
+    key <AC03> { [           d,          D, Greek_delta,   Greek_DELTA ] }; // δ Δ
+    key <AC04> { [           f,          F,   Greek_phi,      function ] }; // φ ƒ
+    key <AC05> { [           g,          G, Greek_gamma,   Greek_GAMMA ] }; // γ Γ
+    key <AC06> { [           h,          H, Greek_theta,   Greek_alpha ] }; // θ α
+    key <AC07> { [           j,          J,    downarrow,       uparrow ] }; // ↓ ↑
+    key <AC08> { [           k,          K, partialderivative, paragraph ] }; // ∂ ¶
+    key <AC09> { [           l,          L, Greek_lambda,         U20BA ] }; // λ ₺
+    key <AC10> { [      ntilde,     Ntilde,    braceleft,    dead_macron ] }; // ñ Ñ { ¯
+    key <AC11> { [  apostrophe,   quotedbl,   braceright,     dead_caron ] }; // ' " } ˇ
+
+    // ANSI backslash key carries < > (no ISO LSGT key).
+    key <BKSL> { [        less,    greater, lessthanequal, greaterthanequal ] }; // < > ≤ ≥
+
+    // Bottom row: - _ where / ? is on US; ç on AltGr+C.
+    key <AB01> { [           z,          Z, guillemotleft, leftdoublequotemark ] }; // « “
+    key <AB02> { [           x,          X, guillemotright, rightdoublequotemark ] }; // » ”
+    key <AB03> { [           c,          C,     ccedilla,      Ccedilla ] }; // ç Ç
+    key <AB04> { [           v,          V,        nabla,      sterling ] }; // ∇ £
+    key <AB05> { [           b,          B,   Greek_beta,         U20BF ] }; // β ₿
+    key <AB06> { [           n,          N,     Greek_nu,   onesubscript ] }; // ν ₁
+    key <AB07> { [           m,          M,     Greek_mu,   twosubscript ] }; // μ ₂
+    key <AB08> { [       comma,  semicolon,     approxeq, threesubscript ] }; // , ; ≈ ₃
+
+    key <AB09> { [      period,      colon, dead_belowdot, dead_abovedot ] }; // . : ̣ ˙
+    key <AB10> { [       minus, underscore,     notequal,    squareroot ] }; // - _ ≠ √
+
+    include "level3(ralt_switch)"
+};

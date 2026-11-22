@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry version="1.1">
+  <layoutList>
+    <layout>
+      <configItem>
+        <name>esansi</name>
+        <shortDescription>ESA</shortDescription>
+        <description>Spanish (ANSI)</description>
+        <languageList>
+          <iso639Id>spa</iso639Id>
+          <iso639Id>por</iso639Id>
+          <iso639Id>eng</iso639Id>
+          <iso639Id>nld</iso639Id>
+          <iso639Id>fra</iso639Id>
+        </languageList>
+      </configItem>
+    </layout>
+  </layoutList>
+</xkbConfigRegistry>

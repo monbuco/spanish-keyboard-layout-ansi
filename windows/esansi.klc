@@ -1,0 +1,240 @@
+KBD	esansi	"Spanish (ANSI)"
+
+COPYRIGHT	"(c) 2026 Monbuco"
+
+COMPANY	"Monbuco"
+
+LOCALENAME	"es-ES"
+
+LOCALEID	00000c0a
+
+VERSION		1.0
+
+SHIFTSTATE
+
+0	// Column 4
+1	// Column 5 : Shft
+6	// Column 6 :       Ctrl Alt (AltGr)
+7	// Column 7 : Shft Ctrl Alt
+
+LAYOUT		; an extra '@' at the end of a dead key describes a dead key
+
+//SC	VK_		Cap	0	1	6	7
+02	1		0	1	007c	00ba	00b9		// 1 | º ¹
+03	2		0	2	0040	00aa	00b2		// 2 @ ª ²
+04	3		0	3	0023	00b7	00b3		// 3 # · ³
+05	4		0	4	0024	00a2	2074		// 4 $ ¢ ⁴
+06	5		0	5	0025	20ac	2075		// 5 % € ⁵
+07	6		0	6	005e	00ac	2076		// 6 ^ ¬ ⁶
+08	7		0	7	0026	00a9	2077		// 7 & © ⁷
+09	8		0	8	0028	2032	2078		// 8 ( ′ ⁸
+0a	9		0	9	0029	2033	2079		// 9 ) ″ ⁹
+0b	0		0	0	003d	00b0	2070		// 0 = ° ⁰
+0c	OEM_MINUS	0	00a1	0021	002b	00b1		// ¡ ! + ±
+0d	OEM_PLUS	0	00bf	003f	002a	2e2e		// ¿ ? * ⸮
+
+10	Q		1	q	Q	221e	00a7		// ∞ §
+11	W		1	w	W	03c9	20a9		// ω ₩
+12	E		1	e	E	03b5	03a9		// ε Ω
+13	R		1	r	R	03c1	00ae		// ρ ®
+14	T		1	t	T	03c4	2122		// τ ™
+15	Y		1	y	Y	2190	00a5		// ← ¥
+16	U		1	u	U	2192	0950		// → ॐ
+17	I		1	i	I	222b	20b9		// ∫ ₹
+18	O		1	o	O	0153	0152		// œ Œ
+19	P		1	p	P	03c0	220f		// π ∏
+1a	OEM_4		0	00b4@	00a8@	005b	0060		// ´ ¨ [ `
+
+1b	OEM_6		0	002f	005c	005d	005e		// / \ ] ^
+1e	A		1	a	A	00e6	00c6		// æ Æ
+1f	S		1	s	S	03c3	2211		// σ ∑
+20	D		1	d	D	03b4	0394		// δ Δ
+21	F		1	f	F	03c6	0192		// φ ƒ
+22	G		1	g	G	03b3	0393		// γ Γ
+23	H		1	h	H	03b8	03b1		// θ α
+24	J		1	j	J	2193	2191		// ↓ ↑
+25	K		1	k	K	2202	00b6		// ∂ ¶
+26	L		1	l	L	03bb	20ba		// λ ₺
+27	OEM_1		1	00f1	00d1	007b	00af@		// ñ Ñ { ¯
+28	OEM_7		0	0027	0022	007d	02c7@		// ' " } ˇ
+29	OEM_3		0	0060@	007e	007e	207a		// ` ~ ~ ⁺
+2b	OEM_5		0	003c	003e	2264	2265		// < > ≤ ≥
+2c	Z		1	z	Z	00ab	201c		// « “
+2d	X		1	x	X	00bb	201d		// » ”
+2e	C		1	c	C	00e7	00c7		// ç Ç
+2f	V		1	v	V	2207	00a3		// ∇ £
+30	B		1	b	B	03b2	20bf		// β ₿
+31	N		1	n	N	03bd	2081		// ν ₁
+32	M		1	m	M	03bc	2082		// μ ₂
+33	OEM_COMMA	0	002c	003b	2248	2083		// , ; ≈ ₃
+34	OEM_PERIOD	0	002e	003a	0323@	02d9@		// . : ̣ ˙
+35	OEM_2		0	002d	005f	2260	221a		// - _ ≠ √
+
+DEADKEY	00b4
+
+0061	00e1	// a → á
+0065	00e9	// e → é
+0069	00ed	// i → í
+006f	00f3	// o → ó
+0075	00fa	// u → ú
+0079	00fd	// y → ý
+006e	0144	// n → ń
+0041	00c1	// A → Á
+0045	00c9	// E → É
+0049	00cd	// I → Í
+004f	00d3	// O → Ó
+0055	00da	// U → Ú
+0059	00dd	// Y → Ý
+004e	0143	// N → Ń
+0020	00b4	// space → ´
+
+DEADKEY	00a8
+
+0061	00e4	// a → ä
+0065	00eb	// e → ë
+0069	00ef	// i → ï
+006f	00f6	// o → ö
+0075	00fc	// u → ü
+0079	00ff	// y → ÿ
+0041	00c4	// A → Ä
+0045	00cb	// E → Ë
+0049	00cf	// I → Ï
+004f	00d6	// O → Ö
+0055	00dc	// U → Ü
+0020	00a8	// space → ¨
+
+DEADKEY	0060
+
+0061	00e0	// a → à
+0065	00e8	// e → è
+0069	00ec	// i → ì
+006f	00f2	// o → ò
+0075	00f9	// u → ù
+0041	00c0	// A → À
+0045	00c8	// E → È
+0049	00cc	// I → Ì
+004f	00d2	// O → Ò
+0055	00d9	// U → Ù
+0020	0060	// space → `
+
+DEADKEY	00af
+
+0061	0101	// a → ā
+0065	0113	// e → ē
+0069	012b	// i → ī
+006f	014d	// o → ō
+0075	016b	// u → ū
+0041	0100	// A → Ā
+0045	0112	// E → Ē
+0049	012a	// I → Ī
+004f	014c	// O → Ō
+0055	016a	// U → Ū
+0020	00af	// space → ¯
+
+DEADKEY	02c7
+
+0061	01ce	// a → ǎ
+0065	011b	// e → ě
+0069	01d0	// i → ǐ
+006f	01d2	// o → ǒ
+0075	01d4	// u → ǔ
+0041	01cd	// A → Ǎ
+0045	011a	// E → Ě
+0049	01cf	// I → Ǐ
+004f	01d1	// O → Ǒ
+0055	01d3	// U → Ǔ
+0020	02c7	// space → ˇ
+
+DEADKEY	0323
+
+0061	1ea1	// a → ạ
+0065	1eb9	// e → ẹ
+0069	1ecb	// i → ị
+006f	1ecd	// o → ọ
+0075	1ee5	// u → ụ
+0041	1ea0	// A → Ạ
+0045	1eb8	// E → Ẹ
+0049	1eca	// I → Ị
+004f	1ecc	// O → Ọ
+0055	1ee4	// U → Ụ
+0020	0323	// space → ̣
+
+DEADKEY	02d9
+
+0061	0227	// a → ȧ
+0065	0117	// e → ė
+0069	0131	// i → ı (fallback)
+006f	022f	// o → ȯ
+0075	016f	// u → ů (approx)
+0041	0226	// A → Ȧ
+0045	0116	// E → Ė
+004f	022e	// O → Ȯ
+0020	02d9	// space → ˙
+
+KEYNAME
+
+01	Esc
+0e	Backspace
+0f	Tab
+1c	Enter
+1d	Ctrl
+2a	Shift
+36	"Right Shift"
+37	"Num *"
+38	Alt
+39	Space
+3a	"Caps Lock"
+3b	F1
+3c	F2
+3d	F3
+3e	F4
+3f	F5
+40	F6
+41	F7
+42	F8
+43	F9
+44	F10
+57	F11
+58	F12
+
+KEYNAME_EXT
+
+1c	"Num Enter"
+1d	"Right Ctrl"
+35	"Num /"
+37	"Prnt Scrn"
+38	"Right Alt"
+45	"Num Lock"
+46	Break
+47	Home
+48	Up
+49	"Page Up"
+4b	Left
+4d	Right
+4f	End
+50	Down
+51	"Page Down"
+52	Insert
+53	Delete
+
+KEYNAME_DEAD
+
+00b4	"ACUTE ACCENT"
+00a8	"DIAERESIS"
+0060	"GRAVE ACCENT"
+00af	"MACRON"
+02c7	"CARON"
+0323	"DOT BELOW"
+02d9	"DOT ABOVE"
+
+DESCRIPTIONS
+
+0409	Spanish (ANSI)
+0C0A	Spanish (ANSI)
+
+LANGUAGENAMES
+
+0409	Spanish
+0C0A	Español
+
+ENDKBD
