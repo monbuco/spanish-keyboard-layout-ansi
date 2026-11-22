@@ -12,11 +12,23 @@ System name: **Spanish (ANSI)**. Short indicator: **ESA**. Layout id: `esansi`.
 | Windows | [`windows/esansi.klc`](windows/esansi.klc) | [`windows.md`](windows.md) |
 | macOS | build with Ukelele | [`macos.md`](macos.md) |
 
+## Why this layout
+
+Most ANSI layouts that add Spanish support put **accents and `ñ` on AltGr**. That is fine for occasional loanwords; it is uncomfortable for real Spanish writing, where acute accents and `ñ` appear constantly. This layout keeps those on the base and Shift layers, the way a Spain ISO keyboard does, so everyday Spanish stays fast.
+
+It also **optimizes the opening marks**: `¡` and `¿` sit unshifted to the right of `0`, with `!` and `?` on Shift of the same keys. You do not dig through AltGr to open a question or an exclamation.
+
+For **coders**, brackets follow the muscle memory Spanish (Spain) programmers already use: `{` `}` `[` `]` on AltGr next to the home and top rows. You can write Spanish prose and code on the same board without switching layouts or relearning symbol chords.
+
+Beyond Spanish it covers the languages of South America, **Portuguese** (including `ç`), **French** digraphs **`æ` / `œ`** (and `Æ` / `Œ`), scientific and financial symbols on AltGr, and the diacritics needed for **pinyin** and **IAST**.
+
 ## Goals
 
 - Work on a **standard ANSI** keyboard and keep access to a wide range of commercial boards.
-- Cover **Spanish** as the primary language, plus the other languages used in South America.
-- Include **Portuguese** accents and **`ç` / `Ç`**.
+- Keep **Spanish diacritics and `ñ` off AltGr** so daily writing stays comfortable.
+- Make **`¡` `¿`** easy: unshifted, next to the number row.
+- Stay familiar for **Spanish (Spain) coders**: `{` `}` `[` `]` via AltGr.
+- Cover **Portuguese** (`ç`) and **French** (`æ` `œ`), plus the other languages used in South America.
 - Expose **scientific and financial** notation on AltGr layers.
 - Provide the **diacritics needed for pinyin and IAST** (macron, caron, dot above, dot below, and the usual acute / grave / diaeresis set).
 
@@ -27,6 +39,7 @@ Letter row stays QWERTY. Spanish essentials sit on keys that exist on ANSI:
 - `¡` `¿` unshifted to the right of `0`
 - `<` `>` on the backslash key
 - `ç` `Ç` on AltGr+C / AltGr+Shift+C
+- `æ` `œ` on AltGr+A / AltGr+O (`Æ` `Œ` with Shift)
 - `€` on AltGr+5
 
 ## Layers
