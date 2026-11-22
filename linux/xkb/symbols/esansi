@@ -22,8 +22,8 @@ xkb_symbols "basic" {
     key <AE08> { [           8,  parenleft,      minutes, eightsuperior ] }; // 8 ( ′ ⁸
     key <AE09> { [           9, parenright,      seconds,  ninesuperior ] }; // 9 ) ″ ⁹
     key <AE10> { [           0,      equal,       degree,  zerosuperior ] }; // 0 = ° ⁰
-    key <AE11> { [  exclamdown,     exclam,         plus,     plusminus ] }; // ¡ ! + ±
-    key <AE12> { [ questiondown,  question,     asterisk,        U2E2E ] }; // ¿ ? * ⸮
+    key <AE11> { [ questiondown, exclamdown,         plus,     plusminus ] }; // ¿ ¡ + ±
+    key <AE12> { [    question,     exclam,     asterisk,        U2E2E ] }; // ? ! * ⸮
 
 
     // Top letter row: acute/diaeresis after P; / \ where ] usually is.

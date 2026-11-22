@@ -30,8 +30,8 @@ LAYOUT		; an extra '@' at the end of a dead key describes a dead key
 09	8		0	8	0028	2032	2078		// 8 ( ′ ⁸
 0a	9		0	9	0029	2033	2079		// 9 ) ″ ⁹
 0b	0		0	0	003d	00b0	2070		// 0 = ° ⁰
-0c	OEM_MINUS	0	00a1	0021	002b	00b1		// ¡ ! + ±
-0d	OEM_PLUS	0	00bf	003f	002a	2e2e		// ¿ ? * ⸮
+0c	OEM_MINUS	0	00bf	00a1	002b	00b1		// ¿ ¡ + ±
+0d	OEM_PLUS	0	003f	0021	002a	2e2e		// ? ! * ⸮
 
 10	Q		1	q	Q	221e	00a7		// ∞ §
 11	W		1	w	W	03c9	20a9		// ω ₩

@@ -37,4 +37,4 @@ Then, in the keyboards for Spanish (Spain), remove Spanish (ANSI) if it is still
 
 ## Check
 
-With the layout active: `¡` and `¿` sit unshifted to the right of `0`. Shift+1 types `|`. AltGr+5 types `€`. AltGr+C types `ç`. The `\` key types `<` and `>`.
+With the layout active: `¿` sits unshifted to the right of `0`, and Shift on that key types `¡`. The next key is `?` / `!`. Shift+1 types `|`. AltGr+5 types `€`. AltGr+C types `ç`. The `\` key types `<` and `>`.

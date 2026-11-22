@@ -43,4 +43,4 @@ In Input Sources, select Spanish (ANSI) and press −. Then delete the `.keylayo
 
 ## Check
 
-With the layout active: `¡` and `¿` sit unshifted to the right of `0`. Shift+1 types `|`. Option+5 types `€`. Option+C types `ç`. The `\` key types `<` and `>`.
+With the layout active: `¿` sits unshifted to the right of `0`, and Shift on that key types `¡`. The next key is `?` / `!`. Shift+1 types `|`. Option+5 types `€`. Option+C types `ç`. The `\` key types `<` and `>`.

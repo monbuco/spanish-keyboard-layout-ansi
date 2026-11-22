@@ -59,4 +59,4 @@ An update of the `xkb-data` package can rewrite the files in `/usr/share/X11/xkb
 
 ## Check
 
-With Spanish (ANSI) active: `¡` and `¿` sit unshifted to the right of `0`. Shift+1 types `|`. AltGr+5 types `€`. AltGr+C types `ç`. The backslash key types `<` and `>`.
+With Spanish (ANSI) active: `¿` sits unshifted to the right of `0`, and Shift on that key types `¡`. The next key is `?` / `!`. Shift+1 types `|`. AltGr+5 types `€`. AltGr+C types `ç`. The backslash key types `<` and `>`.
