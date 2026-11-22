@@ -29,7 +29,7 @@ Beyond Spanish it covers the languages of South America, **Portuguese** (includi
 - Keep **Spanish diacritics and `ñ` off AltGr** so daily writing stays comfortable.
 - Make **`¿` `¡`** easy: `¿` unshifted and `¡` on Shift of the same key; `?` `!` on the next key.
 - Stay familiar for **Spanish (Spain) coders**: `{` `}` `[` `]` via AltGr.
-- Cover **Portuguese** (`ç`) and **French** (`æ` `œ`), plus the other languages used in South America.
+- Cover **Portuguese** (`ç`, dead `~` `^` `` ` `` for `ã` `õ` `â` `ê` `ô` `à`) and **French** (`æ` `œ`), plus the other languages used in South America.
 - Expose **scientific and financial** notation on AltGr layers.
 - Provide the **diacritics needed for pinyin and IAST** (macron, caron, dot above, dot below, and the usual acute / grave / diaeresis set).
 
@@ -41,6 +41,7 @@ Letter row stays QWERTY. Spanish essentials sit on keys that exist on ANSI:
 - `<` `>` on the backslash key
 - `ç` `Ç` on AltGr+C / AltGr+Shift+C
 - `æ` `œ` on AltGr+A / AltGr+O (`Æ` `Œ` with Shift)
+- Dead `~` on AltGr of `` ` ``; dead `` ` `` and `^` on AltGr+Shift of `´` and `/` (Portuguese)
 - `€` on AltGr+5
 
 ## Layers
@@ -103,9 +104,10 @@ Letter row stays QWERTY. Spanish essentials sit on keys that exist on ANSI:
 
 ## Usage notes
 
-- **Dead keys:** `` ` ``, `´`, `¨`, plus AltGr macron `¯`, caron `ˇ`, and dots `̣` / `˙`. Press the accent, then the letter (or space for the accent alone). These cover Spanish, Portuguese, pinyin, and IAST-style transliteration.
+- **Dead keys:** `` ` `` (base), `´`, `¨`, plus on AltGr / AltGr+Shift: tilde `~` (for Portuguese `ã` `õ`), grave `` ` `` (for `à`), circumflex `^` (for `â` `ê` `ô`), macron `¯`, caron `ˇ`, and dots `̣` / `˙`. Press the accent, then the letter (or space for the accent alone).
+- **Portuguese:** AltGr+`` ` `` then `a`/`o` → `ã`/`õ`; AltGr+Shift+`/` then `a`/`e`/`o` → `â`/`ê`/`ô`; AltGr+Shift+`´` then `a` → `à`. `ç` is AltGr+C.
 - **AltGr** is Right Alt (Option on macOS).
-- **Programming:** `[` `]` `{` `}` live on AltGr of `´` `/` `ñ` `'`. `<` `>` on `\`. `+` `*` on AltGr of `¿` `?`.
+- **Programming:** `[` `]` `{` `}` live on AltGr of `´` `/` `ñ` `'`. `<` `>` on `\`. `+` `*` on AltGr of `¿` `?`. Literal `~` and `^` stay on Shift of `` ` `` and `6`.
 
 ## Physical keycaps (Yuzu)
 

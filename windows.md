@@ -4,7 +4,7 @@ Windows does not use the Linux XKB files. The layout is in [`windows/esansi.klc`
 
 The keyboard is tied to **Spanish (Spain)**. In the list it appears as **Spanish (ANSI)**. You can use it while the rest of the system is in another language: Windows allows several keyboards and switches with Windows+Space.
 
-AltGr is the right Alt key. Dead accents wait for the next letter. Space after a dead accent types the accent alone.
+AltGr is the right Alt key. Dead accents wait for the next letter, including AltGr `~` and AltGr+Shift `` ` `` / `^` for Portuguese. Space after a dead accent types the accent alone.
 
 ## Requirements
 

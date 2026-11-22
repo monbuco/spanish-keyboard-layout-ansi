@@ -11,7 +11,8 @@ xkb_symbols "basic" {
     name[Group1] = "Spanish (ANSI)";
 
     // Number row: Spanish punctuation on -/=; º ª and primes on AltGr.
-    key <TLDE> { [  dead_grave, asciitilde,   asciitilde,        U207A ] }; // ` ~ ~ ⁺
+    key <TLDE> { [  dead_grave, asciitilde,   dead_tilde,        U207A ] }; // ` ~ ~ ⁺ (AltGr ~ dead for ã õ)
+
     key <AE01> { [           1,       bar,    masculine,    onesuperior ] }; // 1 | º ¹
     key <AE02> { [           2,        at,  ordfeminine,    twosuperior ] }; // 2 @ ª ²
     key <AE03> { [           3, numbersign, periodcentered, threesuperior ] }; // 3 # · ³
@@ -37,9 +38,9 @@ xkb_symbols "basic" {
     key <AD08> { [           i,          I,     integral,         U20B9 ] }; // ∫ ₹
     key <AD09> { [           o,          O,           oe,            OE ] }; // œ Œ
     key <AD10> { [           p,          P,     Greek_pi,         U220F ] }; // π ∏
-    key <AD11> { [  dead_acute, dead_diaeresis, bracketleft,         grave ] }; // ´ ¨ [ `
+    key <AD11> { [  dead_acute, dead_diaeresis, bracketleft,    dead_grave ] }; // ´ ¨ [ ` (AltGr+Shift ` dead for à)
+    key <AD12> { [       slash,  backslash, bracketright, dead_circumflex ] }; // / \ ] ^ (AltGr+Shift ^ dead for â ê ô)
 
-    key <AD12> { [       slash,  backslash, bracketright,   asciicircum ] }; // / \ ] ^
 
     // Home row: ñ where ; is on US; ' " where ' is.
     key <AC01> { [           a,          A,           ae,            AE ] }; // æ Æ

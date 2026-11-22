@@ -6,7 +6,7 @@ There are two ways to install it. The user install is enough for GNOME and for d
 
 The name that appears is **Spanish (ANSI)**. The bar indicator stays ESA.
 
-AltGr is the right Alt key. The accents `` ` ``, `´`, `¨`, the macron, the caron, and the two dead dots wait for the next letter. Space after a dead accent types the accent alone.
+AltGr is the right Alt key. The accents `` ` ``, `´`, `¨`, AltGr tilde `~`, AltGr+Shift grave and circumflex `` ` `` / `^` (for Portuguese), the macron, the caron, and the two dead dots wait for the next letter. Space after a dead accent types the accent alone.
 
 ## User install
 

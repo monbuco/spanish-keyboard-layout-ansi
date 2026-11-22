@@ -43,9 +43,9 @@ LAYOUT		; an extra '@' at the end of a dead key describes a dead key
 17	I		1	i	I	222b	20b9		// ∫ ₹
 18	O		1	o	O	0153	0152		// œ Œ
 19	P		1	p	P	03c0	220f		// π ∏
-1a	OEM_4		0	00b4@	00a8@	005b	0060		// ´ ¨ [ `
+1a	OEM_4		0	00b4@	00a8@	005b	0060@		// ´ ¨ [ ` (dead)
+1b	OEM_6		0	002f	005c	005d	005e@		// / \ ] ^ (dead)
 
-1b	OEM_6		0	002f	005c	005d	005e		// / \ ] ^
 1e	A		1	a	A	00e6	00c6		// æ Æ
 1f	S		1	s	S	03c3	2211		// σ ∑
 20	D		1	d	D	03b4	0394		// δ Δ
@@ -57,7 +57,8 @@ LAYOUT		; an extra '@' at the end of a dead key describes a dead key
 26	L		1	l	L	03bb	20ba		// λ ₺
 27	OEM_1		1	00f1	00d1	007b	00af@		// ñ Ñ { ¯
 28	OEM_7		0	0027	0022	007d	02c7@		// ' " } ˇ
-29	OEM_3		0	0060@	007e	007e	207a		// ` ~ ~ ⁺
+29	OEM_3		0	0060@	007e	007e@	207a		// ` ~ ~ ⁺ (AltGr ~ dead)
+
 2b	OEM_5		0	003c	003e	2264	2265		// < > ≤ ≥
 2c	Z		1	z	Z	00ab	201c		// « “
 2d	X		1	x	X	00bb	201d		// » ”
@@ -116,6 +117,31 @@ DEADKEY	0060
 004f	00d2	// O → Ò
 0055	00d9	// U → Ù
 0020	0060	// space → `
+
+DEADKEY	007e
+
+0061	00e3	// a → ã
+006f	00f5	// o → õ
+006e	00f1	// n → ñ
+0041	00c3	// A → Ã
+004f	00d5	// O → Õ
+004e	00d1	// N → Ñ
+0020	007e	// space → ~
+
+DEADKEY	005e
+
+0061	00e2	// a → â
+0065	00ea	// e → ê
+0069	00ee	// i → î
+006f	00f4	// o → ô
+0075	00fb	// u → û
+0041	00c2	// A → Â
+0045	00ca	// E → Ê
+0049	00ce	// I → Î
+004f	00d4	// O → Ô
+0055	00db	// U → Û
+0020	005e	// space → ^
+
 
 DEADKEY	00af
 
@@ -222,6 +248,8 @@ KEYNAME_DEAD
 00b4	"ACUTE ACCENT"
 00a8	"DIAERESIS"
 0060	"GRAVE ACCENT"
+007e	"TILDE"
+005e	"CIRCUMFLEX ACCENT"
 00af	"MACRON"
 02c7	"CARON"
 0323	"DOT BELOW"
