@@ -6,6 +6,8 @@ ANSI is the most widely sold keyboard form factor. Targeting it first opens a la
 
 System name: **Spanish (ANSI)**. Short indicator: **ESA**. Layout id: `esansi`.
 
+Related: [Spanish (ISO Int)](https://github.com/monbuco/spanish-keyboard-layout-iso) for standard ISO hardware.
+
 | Platform | Files | Guide |
 |---|---|---|
 | Linux (XKB) | [`linux/xkb/`](linux/xkb/) | [`linux.md`](linux.md) |
